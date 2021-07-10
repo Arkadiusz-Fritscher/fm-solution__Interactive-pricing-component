@@ -38,6 +38,7 @@
     width: 100%;
     flex: 1 0 100%;
     @include mq(md) {
+      padding-top: 1.6rem;
       order: 3;
     }
   }

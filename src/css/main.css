@@ -435,6 +435,7 @@ header {
 }
 @media (min-width: 32em) {
   .options__slider {
+    padding-top: 1.6rem;
     order: 3;
   }
 }
