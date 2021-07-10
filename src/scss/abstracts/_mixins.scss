@@ -1,0 +1,17 @@
+@use 'sass:map';
+@use 'breakpoints' as *;
+
+// --- Mediaqueries with maped Breakpoints ---
+
+//  To use:
+//  @include mq(lg) {...}
+
+@mixin mq($size) {
+  $size: map-get(
+    $map: $breakpoints,
+    $key: $size,
+  );
+  @media (min-width: $size) {
+    @content;
+  }
+}

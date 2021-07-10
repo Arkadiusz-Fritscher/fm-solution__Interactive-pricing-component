@@ -1,0 +1,33 @@
+@use '../abstracts/' as *;
+
+/* --- Billing section --- */
+.billing {
+  display: flex;
+  align-items: center;
+
+  > div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+    &:first-child > span {
+      margin-left: auto;
+    }
+
+    &:last-child > span {
+      margin-right: auto;
+    }
+  }
+
+  &__method {
+    flex: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: max-content;
+  }
+
+  &__option {
+    position: relative;
+  }
+}

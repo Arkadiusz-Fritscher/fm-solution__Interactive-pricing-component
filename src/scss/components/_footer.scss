@@ -1,0 +1,24 @@
+@use '../abstracts/' as *;
+
+/* --- Footer --- */
+footer {
+  grid-area: footer;
+  align-self: flex-end;
+}
+
+.footer__nav {
+  padding: 1em 0;
+  font-weight: 600;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  &__item {
+    padding: 0 1rem;
+    color: transparent;
+  }
+  @include mq(sm) {
+    display: flex;
+  }
+}

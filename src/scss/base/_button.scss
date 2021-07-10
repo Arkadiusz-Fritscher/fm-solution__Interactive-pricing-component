@@ -1,0 +1,19 @@
+@use '../abstracts/' as *;
+
+/* --- Button --- */
+.btn {
+  font-size: 0.8rem;
+  font-weight: 800;
+  line-height: 1.067rem;
+  padding: 0.8rem 3.067rem;
+  color: var(--col-blue200);
+  background-color: var(--col-blue300);
+  border: none;
+  outline: none;
+  border-radius: 20px;
+
+  &:hover {
+    color: var(--col-white);
+    cursor: pointer;
+  }
+}

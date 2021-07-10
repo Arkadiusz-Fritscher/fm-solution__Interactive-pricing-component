@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="./script.js" defer></script>
+    <title>Frontend Mentor | Interactive pricing component</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Here comes all the content -->
+
+      <!-- Header -->
+      <header class="header">
+        <h1 class="header__title text--xl">Simple, traffic-based pricing</h1>
+        <div class="header__subtitle text--m">
+          <p>Sign-up for our 30-day trial. No credit card required.</p>
+        </div>
+      </header>
+      <!-- Header end -->
+
+      <!-- Main Content -->
+      <main class="card">
+        <!-- Slider Section -->
+        <section class="options">
+          <h2 class="options__views text--s uppercase">
+            <span id="views">10k</span> Pageviews
+          </h2>
+          <div class="options__slider">
+            <input
+              type="range"
+              name="pageviews"
+              id="pageviews"
+              min="0"
+              max="0"
+              value="0"
+              step="1"
+              aria-label="Slider"
+              aria-valuemin="0"
+              aria-valuemax="0"
+              aria-valuenow="0"
+              tabindex="0"
+            />
+          </div>
+          <h3 class="options__price text--l">
+            <span id="price" class="text--xxl">8.00</span>
+            <span>/ month</span>
+          </h3>
+        </section>
+        <!-- Slider Section end -->
+
+        <!-- Blilling Section -->
+        <section class="billing">
+          <div class="text--xs">
+            <span class="billing__option">Monthly Billing</span>
+          </div>
+          <div class="billing__method">
+            <input
+              type="checkbox"
+              name="billing-method"
+              id="billing-method"
+              tabindex="1"
+              aria-checked="false"
+              aria-label="Billing method"
+            />
+          </div>
+          <div class="text--xs">
+            <span class="billing__option"
+              >Yearly Billing
+              <span class="billing__discount tag">25%</span></span
+            >
+          </div>
+        </section>
+        <!-- Blilling Section end -->
+
+        <!-- Benefits section -->
+        <section class="benefits">
+          <div class="benefits__list__wrapper">
+            <ul class="benefits__list text--xs">
+              <li class="benefits__item">Unlimited websites</li>
+              <li class="benefits__item">100% data ownership</li>
+              <li class="benefits__item">Email reports</li>
+            </ul>
+          </div>
+          <div class="benefits__cta">
+            <button
+              type="button"
+              class="btn"
+              tabindex="2"
+              aria-label="start a trial"
+            >
+              Start my trial
+            </button>
+          </div>
+        </section>
+        <!-- Benefits section end -->
+      </main>
+      <!-- Main Content end -->
+
+      <!-- Footer -->
+      <footer>
+        <ul class="footer__nav text--xs">
+          <li class="footer__nav__item">
+            Challenge by
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+              class="footer__nav__link"
+              >Frontend Mentor</a
+            >.
+          </li>
+          <li class="footer__nav__item">
+            Coded by
+            <a href="https://fritscher.dev" class="footer__nav__link"
+              >Fritscher.dev</a
+            >.
+          </li>
+        </ul>
+      </footer>
+      <!-- Footer end -->
+    </div>
+  </body>
+</html>

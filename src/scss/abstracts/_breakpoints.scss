@@ -1,0 +1,14 @@
+// Breakpoints
+
+$breakpoints: (
+  sm: 25em,
+  // 640px @ 16px
+  md: 32em,
+  // 768px @ 16px
+  lg: 64em,
+  // 1024px @ 16px
+  xl: 80em,
+  // 1280px @ 16px
+  2xl: 96em,
+  // 1536px @ 16px
+);

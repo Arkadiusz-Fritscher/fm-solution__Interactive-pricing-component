@@ -1,0 +1,44 @@
+@use '../abstracts/' as *;
+
+/* --- Options section --- */
+.options {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 2.133rem;
+
+  > *:not(:last-child) {
+    padding-bottom: 24px;
+  }
+
+  @include mq(md) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1ch;
+    > span {
+      display: block;
+    }
+    #price {
+      &::before {
+        content: "$";
+      }
+    }
+  }
+
+  &__slider {
+    width: 100%;
+    flex: 1 0 100%;
+    @include mq(md) {
+      order: 3;
+    }
+  }
+}

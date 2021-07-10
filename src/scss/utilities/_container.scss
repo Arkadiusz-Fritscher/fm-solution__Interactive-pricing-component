@@ -1,0 +1,20 @@
+@use '../abstracts/' as *;
+
+/* --- Content container --- */
+.container {
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+  padding: 0 1.6em;
+  min-height: 100vh;
+  margin: 0 auto;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  gap: 0px 0px;
+  grid-template-areas:
+    "header"
+    "content"
+    "footer";
+}

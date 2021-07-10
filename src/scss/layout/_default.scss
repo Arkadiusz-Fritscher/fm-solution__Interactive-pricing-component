@@ -1,0 +1,22 @@
+@use '../abstracts/' as *;
+
+/* --- Layout --- */
+html {
+  font-size: 15px;
+}
+
+body {
+  background-color: var(--col-blue100);
+  position: relative;
+  font-family: Manrope, sans-serif;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50vh;
+    background-color: var(--col-gray_blue100);
+    border-radius: 0 0 0 192px;
+  }
+}

@@ -1,0 +1,28 @@
+@use '../abstracts/' as *;
+
+/* --- Header --- */
+header {
+  grid-area: header;
+  align-self: flex-end;
+  margin: 2.133em;
+  height: 9.667em;
+  @include mq(lg) {
+    margin: 3.6em;
+  }
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: no-repeat center url("../images/pattern-circles.svg");
+  background-size: auto 100%;
+
+  &__subtitle {
+    max-width: 25ch;
+    @include mq(md) {
+      max-width: 56ch;
+    }
+  }
+}

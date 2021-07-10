@@ -1,0 +1,54 @@
+@use '../abstracts/' as *;
+
+/* --- Benefits section --- */
+.benefits {
+  margin-top: 24px;
+  padding-top: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  > *:not(:last-child) {
+    padding-bottom: 32px;
+  }
+
+  @include mq(md) {
+    > *:not(:last-child) {
+      padding-bottom: 0px;
+      padding-right: 32px;
+    }
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  &__list {
+    list-style-position: inside;
+    list-style-image: url("../images/icon-check.svg");
+    > li:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+
+  &__cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -1.6rem;
+    right: -1.6rem;
+    height: 1px;
+    background-color: var(--col-gray_blue100);
+
+    @include mq(sm) {
+      left: -3.2rem;
+      right: -3.2rem;
+    }
+  }
+}
