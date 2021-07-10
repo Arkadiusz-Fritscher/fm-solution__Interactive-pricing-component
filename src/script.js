@@ -55,7 +55,6 @@ document.addEventListener("DOMContentLoaded", () => {
     slider.setAttribute("aria-value", 1);
     slider.setAttribute("aria-valuemin", 1);
     slider.setAttribute("aria-valuemax", priceList.length);
-    slider.setAttribute("aria-step", 1);
     slider.setAttribute("min", 1);
     slider.setAttribute("max", priceList.length);
     slider.setAttribute("step", 1);
