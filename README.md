@@ -46,29 +46,14 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Tried to write **well-structured** and **accessibility-friendly** code.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Tried to write well-structured and accessibility-friendly code.</h1>
-
-<p>
-  Styling input elements was something new for me. Through the project, I have
-  learned a lot of new things about input elements. As a Tailwind fan, I haven't
-  worked with SASS for some time. I learned some new things when it comes to
-  splitting sass files or mixins.
-</p>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+Styling input elements was something new for me. Through the project, I have
+learned a lot of new things about input elements. As a Tailwind fan, I haven't
+worked with SASS for some time. I learned some new things when it comes to
+splitting sass files or mixins.
 
 ```js
-<h1>A function should only do one thing.</h1>;
 const init = function () {
   setSliderAttributes();
   setPrice;
