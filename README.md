@@ -52,10 +52,13 @@ To see how you can add code snippets, see below:
 
 ```html
 <h1>Tried to write well-structured and accessibility-friendly code.</h1>
-Styling input elements was something new for me. Through the project, I have
-learned a lot of new things about input elements. As a Tailwind fan, I haven't
-worked with SASS for some time. I learned some new things when it comes to
-splitting sass files or mixins.
+
+<p>
+  Styling input elements was something new for me. Through the project, I have
+  learned a lot of new things about input elements. As a Tailwind fan, I haven't
+  worked with SASS for some time. I learned some new things when it comes to
+  splitting sass files or mixins.
+</p>
 ```
 
 ```css
