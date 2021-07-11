@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg =250x)
+![](./screenshot.jpg=250x)
 
 ### Links
 
