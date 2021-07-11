@@ -36,7 +36,7 @@
       <!-- Main Content -->
       <main>
         <!-- Slider Section -->
-        <section class="card">
+        <div class="card">
           <section class="options">
             <h2 class="options__views text--s uppercase">
               <span id="views">10k</span>Pageviews
@@ -44,6 +44,7 @@
             <div class="options__slider">
               <input
                 type="range"
+                tabindex="0"
                 name="pageviews"
                 id="pageviews"
                 min="1"
@@ -65,13 +66,14 @@
 
           <!-- Blilling Section -->
           <section class="billing">
-            <div class="text--xs">
+            <h2 class="text--xs">
               <span class="billing__option">Monthly Billing</span>
-            </div>
+            </h2>
             <div class="billing__method">
               <input
                 type="checkbox"
                 name="billing-method"
+                tabindex="0"
                 id="billing-method"
                 aria-checked="false"
                 aria-label="Billing method"
@@ -96,13 +98,18 @@
               </ul>
             </div>
             <div class="benefits__cta">
-              <button type="button" class="btn" aria-label="start a trial">
+              <button
+                type="button"
+                class="btn"
+                tabindex="0"
+                aria-label="start a trial"
+              >
                 Start my trial
               </button>
             </div>
           </section>
           <!-- Benefits section end -->
-        </section>
+        </div>
       </main>
       <!-- Main Content end -->
 
