@@ -45,7 +45,8 @@ body::before {
 
 .text--xxl {
   font-weight: 800;
-  letter-spacing: -0.8px;
+  line-height: 1.38;
+  letter-spacing: -1px;
   letter-spacing: 1;
   color: var(--col-blue300);
   font-size: clamp(2.133rem, 4vw, 2.667rem);

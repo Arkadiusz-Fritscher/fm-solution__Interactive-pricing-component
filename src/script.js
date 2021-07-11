@@ -107,6 +107,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const init = function () {
     setSliderAttributes();
     setPrice();
+    setSliderColor();
 
     // Slider events
     elements.slider.addEventListener("input", () => {
