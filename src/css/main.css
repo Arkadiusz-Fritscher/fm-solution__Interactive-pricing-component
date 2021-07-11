@@ -344,7 +344,6 @@ input[type=range]::-moz-range-thumb:focus {
 /* --- Footer --- */
 footer {
   grid-area: footer;
-  background-color: red;
 }
 
 .footer__nav {
@@ -385,7 +384,6 @@ header {
   align-items: center;
   text-align: center;
   background: no-repeat center url("../images/pattern-circles.svg");
-  background-color: red;
   background-size: auto 100%;
 }
 .header__subtitle {
