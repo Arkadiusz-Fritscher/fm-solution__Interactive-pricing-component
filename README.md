@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-<img src="./design/project__mobile.jpg" width="200">
-<img src="./design/project__desktop.jpg" width="600">
+<img src="./design/project_mobile.jpg" width="200">
+<img src="./design/project_desktop.jpg" width="600">
 
 ### Links
 
