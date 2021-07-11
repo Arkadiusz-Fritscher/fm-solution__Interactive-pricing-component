@@ -294,6 +294,10 @@ input[type=range]::-moz-range-thumb:focus {
 .benefits__list > li:not(:last-child) {
   margin-bottom: 10px;
 }
+.benefits__item::before {
+  content: "";
+  padding-left: 1.067rem;
+}
 .benefits__cta {
   display: flex;
   justify-content: center;

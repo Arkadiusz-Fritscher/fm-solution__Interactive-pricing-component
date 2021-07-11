@@ -31,6 +31,11 @@
     }
   }
 
+  &__item::before {
+    content: "";
+    padding-left: 1.067rem;
+  }
+
   &__cta {
     display: flex;
     justify-content: center;
