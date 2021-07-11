@@ -51,4 +51,8 @@
 
 .uppercase {
   text-transform: uppercase;
+  letter-spacing: 1.71px;
+  @include mq(md) {
+    letter-spacing: 2px;
+  }
 }
