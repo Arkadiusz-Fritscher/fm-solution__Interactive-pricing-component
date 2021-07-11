@@ -11,7 +11,7 @@
   margin-bottom: 2.133rem;
 
   > *:not(:last-child) {
-    padding-bottom: 24px;
+    margin-bottom: 24px;
   }
 
   @include mq(md) {
@@ -39,10 +39,13 @@
   }
 
   &__slider {
+    height: 40px;
     width: 100%;
-    flex: 1 0 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     @include mq(md) {
-      padding-top: 1.6rem;
+      margin-top: 1.6rem;
       order: 3;
     }
   }
