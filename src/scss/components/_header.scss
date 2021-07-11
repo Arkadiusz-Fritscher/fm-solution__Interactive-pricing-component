@@ -3,20 +3,21 @@
 /* --- Header --- */
 header {
   grid-area: header;
-  align-self: flex-end;
-  margin: 2.133em;
-  height: 9.667em;
+  margin: 3.8rem 0 2.133rem;
+  height: 9.667rem;
   @include mq(lg) {
-    margin: 3.6em;
+    margin: 4.467rem 0 3.6rem;
   }
 }
 .header {
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   background: no-repeat center url("../images/pattern-circles.svg");
+  background-color: red;
   background-size: auto 100%;
 
   &__subtitle {

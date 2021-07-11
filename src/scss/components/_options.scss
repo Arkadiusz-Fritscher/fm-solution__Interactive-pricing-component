@@ -15,6 +15,9 @@
   }
 
   @include mq(md) {
+    > *:not(:last-child) {
+      padding-bottom: 0px;
+    }
     flex-direction: row;
     justify-content: space-between;
   }

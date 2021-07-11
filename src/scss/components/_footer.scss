@@ -3,7 +3,11 @@
 /* --- Footer --- */
 footer {
   grid-area: footer;
-  align-self: flex-end;
+  background-color: red;
+  // position: absolute;
+  // transform: translateX(-50%);
+  // bottom: 16px;
+  // left: 50%;
 }
 
 .footer__nav {
@@ -16,7 +20,7 @@ footer {
   list-style: none;
   &__item {
     padding: 0 1rem;
-    color: transparent;
+    // color: transparent;
   }
   @include mq(sm) {
     display: flex;

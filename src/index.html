@@ -34,73 +34,75 @@
       <!-- Header end -->
 
       <!-- Main Content -->
-      <main class="card">
+      <main>
         <!-- Slider Section -->
-        <section class="options">
-          <h2 class="options__views text--s uppercase">
-            <span id="views">10k</span> Pageviews
-          </h2>
-          <div class="options__slider">
-            <input
-              type="range"
-              name="pageviews"
-              id="pageviews"
-              min="0"
-              max="0"
-              value="0"
-              step="1"
-              aria-label="slider for chaning pageviews"
-              aria-valuemin="0"
-              aria-valuemax="0"
-              aria-valuenow="0"
-            />
-          </div>
-          <h3 class="options__price text--l">
-            <span id="price" class="text--xxl">8.00</span>
-            <span>/ month</span>
-          </h3>
-        </section>
-        <!-- Slider Section end -->
+        <section class="card">
+          <section class="options">
+            <h2 class="options__views text--s uppercase">
+              <span id="views">10k</span>Pageviews
+            </h2>
+            <div class="options__slider">
+              <input
+                type="range"
+                name="pageviews"
+                id="pageviews"
+                min="1"
+                max="5"
+                value="3"
+                step="1"
+                aria-label="slider for chaning pageviews"
+                aria-valuemin="1"
+                aria-valuemax="5"
+                aria-valuenow="3"
+              />
+            </div>
+            <h3 class="options__price text--l">
+              <span id="price" class="text--xxl">8.00</span>
+              <span>/ month</span>
+            </h3>
+          </section>
+          <!-- Slider Section end -->
 
-        <!-- Blilling Section -->
-        <section class="billing">
-          <div class="text--xs">
-            <span class="billing__option">Monthly Billing</span>
-          </div>
-          <div class="billing__method">
-            <input
-              type="checkbox"
-              name="billing-method"
-              id="billing-method"
-              aria-checked="false"
-              aria-label="Billing method"
-            />
-          </div>
-          <div class="text--xs">
-            <span class="billing__option"
-              >Yearly Billing
-              <span class="billing__discount tag">25%</span></span
-            >
-          </div>
-        </section>
-        <!-- Blilling Section end -->
+          <!-- Blilling Section -->
+          <section class="billing">
+            <div class="text--xs">
+              <span class="billing__option">Monthly Billing</span>
+            </div>
+            <div class="billing__method">
+              <input
+                type="checkbox"
+                name="billing-method"
+                id="billing-method"
+                aria-checked="false"
+                aria-label="Billing method"
+              />
+            </div>
+            <div class="text--xs">
+              <span class="billing__option"
+                >Yearly Billing
+                <span class="billing__discount tag">25%</span></span
+              >
+            </div>
+          </section>
+          <!-- Blilling Section end -->
 
-        <!-- Benefits section -->
-        <section class="benefits">
-          <div class="benefits__list__wrapper">
-            <ul class="benefits__list text--xs">
-              <li class="benefits__item">Unlimited websites</li>
-              <li class="benefits__item">100% data ownership</li>
-              <li class="benefits__item">Email reports</li>
-            </ul>
-          </div>
-          <div class="benefits__cta">
-            <button type="button" class="btn" aria-label="start a trial">
-              Start my trial
-            </button>
-          </div>
+          <!-- Benefits section -->
+          <section class="benefits">
+            <div class="benefits__list__wrapper">
+              <ul class="benefits__list text--xs">
+                <li class="benefits__item">Unlimited websites</li>
+                <li class="benefits__item">100% data ownership</li>
+                <li class="benefits__item">Email reports</li>
+              </ul>
+            </div>
+            <div class="benefits__cta">
+              <button type="button" class="btn" aria-label="start a trial">
+                Start my trial
+              </button>
+            </div>
+          </section>
+          <!-- Benefits section end -->
         </section>
-        <!-- Benefits section end -->
       </main>
       <!-- Main Content end -->
 

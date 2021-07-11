@@ -55,16 +55,14 @@ splitting sass files or mixins.
 ```js
 const init = function () {
   setSliderAttributes();
-  setPrice;
+  setPrice();
 
-  // Slider events
   elements.slider.addEventListener("input", () => {
     setSliderAttributes();
     setSliderColor();
     setPrice();
   });
 
-  // Checkbox events
   elements.checkbox.addEventListener("change", () => {
     calcPriceViews();
     setPrice();

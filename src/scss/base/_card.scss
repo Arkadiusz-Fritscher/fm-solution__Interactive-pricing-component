@@ -2,18 +2,16 @@
 
 /* --- Card --- */
 main {
-  grid-area: content;
+  grid-area: card;
 }
 .card {
   margin: 0 auto;
-  width: 100%;
   max-width: 36em;
   background-color: var(--col-white);
   border-radius: 0.533rem;
   height: max-content;
   box-shadow: 0px 20px 30px -5px rgba(127, 137, 185, 0.152073);
   padding: 2.133rem 1.6rem;
-
   @include mq(sm) {
     padding: 2.667rem 3.2rem 2.133rem;
   }

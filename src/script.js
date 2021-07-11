@@ -52,14 +52,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const setSliderAttributes = function () {
     const slider = elements.slider;
-    slider.setAttribute("aria-value", 1);
+    slider.setAttribute("aria-value", 3);
     slider.setAttribute("aria-valuemin", 1);
     slider.setAttribute("aria-valuemax", priceList.length);
     slider.setAttribute("min", 1);
     slider.setAttribute("max", priceList.length);
     slider.setAttribute("step", 1);
-    slider.attributes.min.value = 1;
-    slider.attributes.max.value = priceList.length;
     data.maxRange = slider.attributes.max.value;
     data.minRange = slider.attributes.min.value;
     data.sliderValue = slider.value;
@@ -108,7 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const init = function () {
     setSliderAttributes();
-    setPrice;
+    setPrice();
 
     // Slider events
     elements.slider.addEventListener("input", () => {

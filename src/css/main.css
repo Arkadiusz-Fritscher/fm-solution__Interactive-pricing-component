@@ -5,7 +5,7 @@
   --col-cyan300: hsl(174, 65%, 41%);
   --col-red100: hsl(14, 92%, 95%);
   --col-red200: hsl(15, 100%, 70%);
-  --col-gray_blue100: hsl(224, 65%, 95%);
+  --col-gray_blue100: hsl(224, 85%, 97%);
   --col-gray_blue200: hsl(223, 50%, 87%);
   --col-gray_blue300: hsl(225, 20%, 60%);
   --col-blue100: hsl(230, 100%, 99%);
@@ -101,12 +101,11 @@ body::before {
 
 /* --- Card --- */
 main {
-  grid-area: content;
+  grid-area: card;
 }
 
 .card {
   margin: 0 auto;
-  width: 100%;
   max-width: 36em;
   background-color: var(--col-white);
   border-radius: 0.533rem;
@@ -258,9 +257,9 @@ input[type=range]::-moz-range-thumb:focus {
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, auto);
+  grid-template-rows: auto 1fr auto;
   gap: 0px 0px;
-  grid-template-areas: "header" "content" "footer";
+  grid-template-areas: "header" "card" "footer";
 }
 
 /* --- Benefits section --- */
@@ -345,7 +344,7 @@ input[type=range]::-moz-range-thumb:focus {
 /* --- Footer --- */
 footer {
   grid-area: footer;
-  align-self: flex-end;
+  background-color: red;
 }
 
 .footer__nav {
@@ -359,7 +358,6 @@ footer {
 }
 .footer__nav__item {
   padding: 0 1rem;
-  color: transparent;
 }
 @media (min-width: 25em) {
   .footer__nav {
@@ -370,23 +368,24 @@ footer {
 /* --- Header --- */
 header {
   grid-area: header;
-  align-self: flex-end;
-  margin: 2.133em;
-  height: 9.667em;
+  margin: 3.8rem 0 2.133rem;
+  height: 9.667rem;
 }
 @media (min-width: 64em) {
   header {
-    margin: 3.6em;
+    margin: 4.467rem 0 3.6rem;
   }
 }
 
 .header {
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   background: no-repeat center url("../images/pattern-circles.svg");
+  background-color: red;
   background-size: auto 100%;
 }
 .header__subtitle {
@@ -415,6 +414,9 @@ header {
   .options {
     flex-direction: row;
     justify-content: space-between;
+  }
+  .options > *:not(:last-child) {
+    padding-bottom: 0px;
   }
 }
 .options__price {
