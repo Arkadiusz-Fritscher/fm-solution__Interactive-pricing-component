@@ -33,7 +33,7 @@
 
   &__item::before {
     content: "";
-    padding-left: 1.067rem;
+    padding-left: calc(1.067rem - 6.95px);
   }
 
   &__cta {
