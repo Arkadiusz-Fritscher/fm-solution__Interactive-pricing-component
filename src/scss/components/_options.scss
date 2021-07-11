@@ -16,9 +16,9 @@
 
   @include mq(md) {
     > *:not(:last-child) {
-      padding-bottom: 0px;
+      margin-bottom: 0px;
     }
-    margin-bottom: 2.667rem;
+    // margin-bottom: 2.667rem;
     flex-direction: row;
     justify-content: space-between;
   }

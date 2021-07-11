@@ -425,12 +425,11 @@ header {
 }
 @media (min-width: 32em) {
   .options {
-    margin-bottom: 2.667rem;
     flex-direction: row;
     justify-content: space-between;
   }
   .options > *:not(:last-child) {
-    padding-bottom: 0px;
+    margin-bottom: 0px;
   }
 }
 .options__price {
