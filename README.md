@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile view](./screenshot.jpg)
+![](./screenshot.jpg =250x)
 
 ### Links
 

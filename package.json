@@ -1,7 +1,7 @@
 {
   "name": "interactive-pricing-component-main",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./src/script.js",
   "license": "MIT",
   "scripts": {
     "sass": "sass src/scss/main.scss src/css/main.css",
