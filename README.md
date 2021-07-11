@@ -31,7 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Hosted on Netlify](https://solution-pricing-component.netlify.app/)
+- Live Site URL: [View on Netlify](https://solution-pricing-component.netlify.app/)
+- Frontend Mentor Challange: [View challange](https://www.frontendmentor.io/solutions/solution-for-interactive-pricing-component-with-sass-and-javascript-g8Sb-u7UP)
 
 ## My process
 
