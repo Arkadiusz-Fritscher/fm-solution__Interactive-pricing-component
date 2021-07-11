@@ -321,6 +321,7 @@ input[type=range]::-moz-range-thumb:focus {
 
 /* --- Billing section --- */
 .billing {
+  width: 100%;
   display: flex;
   align-items: center;
   padding-bottom: 2.533rem;
@@ -330,15 +331,15 @@ input[type=range]::-moz-range-thumb:focus {
     padding-bottom: 2.667rem;
   }
 }
-.billing > div {
+.billing > * {
   flex: 1;
   display: flex;
   align-items: center;
 }
-.billing > div:first-child > span {
+.billing > *:first-child > span {
   margin-left: auto;
 }
-.billing > div:last-child > span {
+.billing > *:last-child > span {
   margin-right: auto;
 }
 .billing__method {
