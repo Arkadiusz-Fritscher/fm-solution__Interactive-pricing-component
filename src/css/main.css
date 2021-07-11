@@ -264,7 +264,6 @@ input[type=range]::-moz-range-thumb:focus {
 
 /* --- Benefits section --- */
 .benefits {
-  margin-top: 24px;
   padding-top: 1.6rem;
   display: flex;
   flex-direction: column;
@@ -277,6 +276,7 @@ input[type=range]::-moz-range-thumb:focus {
 }
 @media (min-width: 32em) {
   .benefits {
+    padding-top: 2.133rem;
     flex-direction: row;
     justify-content: space-between;
     text-align: left;
@@ -318,6 +318,12 @@ input[type=range]::-moz-range-thumb:focus {
 .billing {
   display: flex;
   align-items: center;
+  padding-bottom: 2.533rem;
+}
+@media (min-width: 32em) {
+  .billing {
+    padding-bottom: 2.667rem;
+  }
 }
 .billing > div {
   flex: 1;
@@ -410,6 +416,7 @@ header {
 }
 @media (min-width: 32em) {
   .options {
+    margin-bottom: 2.667rem;
     flex-direction: row;
     justify-content: space-between;
   }

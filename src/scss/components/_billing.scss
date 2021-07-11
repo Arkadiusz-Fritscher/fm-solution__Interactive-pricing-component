@@ -4,6 +4,10 @@
 .billing {
   display: flex;
   align-items: center;
+  padding-bottom: 2.533rem;
+  @include mq(md) {
+    padding-bottom: 2.667rem;
+  }
 
   > div {
     flex: 1;
