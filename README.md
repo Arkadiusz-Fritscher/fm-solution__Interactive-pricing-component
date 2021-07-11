@@ -26,10 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-<div>
-<img src="./design/project_mobile.jpg" width="30%">
-<img src="./design/project_desktop.jpg" width="70%">
-</div>
+<img src="./design/project_mobile.jpg" width="100">
+<img src="./design/project_desktop.jpg" width="400">
 
 ### Links
 
