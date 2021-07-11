@@ -8,19 +8,12 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-bottom: 2.133rem;
-
-  > *:not(:last-child) {
-    margin-bottom: 24px;
-  }
+  padding-bottom: 2.133rem;
 
   @include mq(md) {
-    > *:not(:last-child) {
-      margin-bottom: 0px;
-    }
-    // margin-bottom: 2.667rem;
     flex-direction: row;
     justify-content: space-between;
+    padding-bottom: 0;
   }
 
   &__price {
@@ -40,12 +33,12 @@
 
   &__slider {
     height: 40px;
+    margin: 24px 0;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     @include mq(md) {
-      margin-top: 1.6rem;
       order: 3;
     }
   }
