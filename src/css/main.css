@@ -23,6 +23,7 @@ body {
   background-color: var(--col-blue100);
   position: relative;
   font-family: Manrope, sans-serif;
+  line-height: 1.35;
 }
 body::before {
   content: "";
@@ -45,7 +46,6 @@ body::before {
 
 .text--xxl {
   font-weight: 800;
-  line-height: 1.38;
   letter-spacing: -1px;
   letter-spacing: 1;
   color: var(--col-blue300);
@@ -392,6 +392,14 @@ header {
   text-align: center;
   background: no-repeat center url("../images/pattern-circles.svg");
   background-size: auto 100%;
+}
+.header__title {
+  padding-bottom: 0.533rem;
+}
+@media (min-width: 32em) {
+  .header__title {
+    padding-bottom: 0.8rem;
+  }
 }
 .header__subtitle {
   max-width: 25ch;

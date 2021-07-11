@@ -9,6 +9,7 @@ body {
   background-color: var(--col-blue100);
   position: relative;
   font-family: Manrope, sans-serif;
+  line-height: 1.35;
   &::before {
     content: "";
     position: absolute;

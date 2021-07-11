@@ -19,6 +19,13 @@ header {
   background: no-repeat center url("../images/pattern-circles.svg");
   background-size: auto 100%;
 
+  &__title {
+    padding-bottom: 0.533rem;
+    @include mq(md) {
+      padding-bottom: 0.8rem;
+    }
+  }
+
   &__subtitle {
     max-width: 25ch;
     @include mq(md) {
